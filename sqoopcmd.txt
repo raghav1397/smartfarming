@@ -1,0 +1,1 @@
+sqoop job --create incrementalImportJob7 -- import --connect jdbc:mysql://localhost:3306/test --username root --password cloudera -split-by id --table test1 --hive-import --merge-key id --hive-table test1  --where "time <= current_timestamp" --check-column time --incremental lastmodified --target-dir /user/cloudera/ingest/raw/emp1 --fields-terminated-by "," -m 1

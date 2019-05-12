@@ -1,4 +1,4 @@
-# smartfarming
+# IOT based Smart Sensor Agriculture System and Crop Recommendation using Machine Learning
 
 Internet of things has the ability to transform the world and 
 has the capability to atomize any work in an efficient way. 
